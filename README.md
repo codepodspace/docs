@@ -2,6 +2,8 @@
 
 > 开始
 
+    git clone https://github.com/codepodspace/docs.git
+
 > 安装
 
     npm i docsify-cli -g

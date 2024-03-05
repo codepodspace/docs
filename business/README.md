@@ -2,7 +2,7 @@
 
 ## 业务愿景
 
-Coding anytime, anywhere! 随时随地编程！
+随时随地编码！Coding anytime, anywhere! 
 
 ## 关键需求
 

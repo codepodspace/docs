@@ -2,7 +2,7 @@
 
 ## 业务愿景
 
-Coding anytime, anywhere! 随时随地编程！
+随时随地编码！Coding anytime, anywhere! 
 
 ## 关键需求
 
@@ -48,9 +48,10 @@ Coding anytime, anywhere! 随时随地编程！
 
 ![](_media/use_case/数据空间.png)
 
-### 未完待续...
+### 待业务发展...
 
 
 ## 业务实体
 
 ![](_media/entity/业务实体.png)
+

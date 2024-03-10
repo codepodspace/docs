@@ -1,0 +1,327 @@
+<mxfile host="65bd71144e">
+    <diagram id="CAmtWDYfucujsJTvXxFi" name="测开环境">
+        <mxGraphModel dx="602" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="55" style="edgeStyle=none;html=1;" parent="1" source="17" target="52" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="服务器 k8s Master One" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="270" y="280" width="860" height="690" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="namespace: codepod-server" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="360" width="380" height="390" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="GateWay" style="html=1;dropTarget=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="440" width="150" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="11" vertex="1">
+                    <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+                        <mxPoint x="-27" y="7" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="20" value="User-Server" style="html=1;dropTarget=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="520" width="150" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="20" vertex="1">
+                    <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+                        <mxPoint x="-27" y="7" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="Workspace-Server" style="html=1;dropTarget=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="1" vertex="1">
+                    <mxGeometry x="490" y="520" width="170" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="22" vertex="1">
+                    <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+                        <mxPoint x="-27" y="7" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="Workspace-Job" style="html=1;dropTarget=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="600" width="150" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="24" vertex="1">
+                    <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+                        <mxPoint x="-27" y="7" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" value="Dataspace-Job" style="html=1;dropTarget=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="1" vertex="1">
+                    <mxGeometry x="490" y="600" width="170" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="26" vertex="1">
+                    <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+                        <mxPoint x="-27" y="7" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" value="namespace: codepod-workspace" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="710" y="360" width="380" height="390" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="CodePod—User1" style="html=1;dropTarget=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="1" vertex="1">
+                    <mxGeometry x="780" y="430" width="170" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="29" vertex="1">
+                    <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+                        <mxPoint x="-27" y="7" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="CodePod—User2" style="html=1;dropTarget=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="1" vertex="1">
+                    <mxGeometry x="780" y="510" width="170" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="31" vertex="1">
+                    <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+                        <mxPoint x="-27" y="7" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="33" value="CodePod—User…" style="html=1;dropTarget=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="1" vertex="1">
+                    <mxGeometry x="780" y="580" width="170" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="33" vertex="1">
+                    <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+                        <mxPoint x="-27" y="7" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="48" value="" style="edgeStyle=none;html=1;" parent="1" source="44" target="47" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" style="edgeStyle=none;html=1;endArrow=none;endFill=0;" parent="1" source="44" target="17" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="服务器 (Docker Compose)" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="270" y="80" width="860" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="nginx" style="html=1;dropTarget=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="1" vertex="1">
+                    <mxGeometry x="330" y="140" width="150" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="45" vertex="1">
+                    <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+                        <mxPoint x="-27" y="7" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="47" value="2核2G&lt;br&gt;公网带宽：2M" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;align=left;verticalAlign=top;spacingTop=8;spacingLeft=2;spacingRight=12;fontStyle=4;" parent="1" vertex="1">
+                    <mxGeometry x="1220" y="125" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="Front-UI" style="html=1;dropTarget=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="1" vertex="1">
+                    <mxGeometry x="490" y="440" width="170" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="50" vertex="1">
+                    <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+                        <mxPoint x="-27" y="7" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="52" value="4核32G&lt;br&gt;公网带宽：无" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;align=left;verticalAlign=top;spacingTop=8;spacingLeft=2;spacingRight=12;fontStyle=4;" parent="1" vertex="1">
+                    <mxGeometry x="1220" y="500" width="120" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="1ZqNvHrauiWmupzvo6dR-59" value="docker compose" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="790" width="790" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="MySQL" style="html=1;dropTarget=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="1" vertex="1">
+                    <mxGeometry x="340" y="830" width="150" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="36" vertex="1">
+                    <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+                        <mxPoint x="-27" y="7" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" value="RocketMQ" style="html=1;dropTarget=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="1" vertex="1">
+                    <mxGeometry x="530" y="830" width="150" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="38" vertex="1">
+                    <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+                        <mxPoint x="-27" y="7" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="42" value="Nacos" style="html=1;dropTarget=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="1" vertex="1">
+                    <mxGeometry x="720" y="830" width="150" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="42" vertex="1">
+                    <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+                        <mxPoint x="-27" y="7" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="56" value="jenkins" style="html=1;dropTarget=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="1" vertex="1">
+                    <mxGeometry x="895" y="830" width="150" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="56" vertex="1">
+                    <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+                        <mxPoint x="-27" y="7" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram name="生产环境" id="4wEGkpCf5vSi97ZC_cVU">
+        <mxGraphModel dx="602" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="hqEQS-_Kgv2o5S0UOQAj-0"/>
+                <mxCell id="hqEQS-_Kgv2o5S0UOQAj-1" parent="hqEQS-_Kgv2o5S0UOQAj-0"/>
+                <mxCell id="6lPIFS5kgiezeE-GSuGC-6" value="&amp;nbsp; k8s 服务器集群" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" parent="hqEQS-_Kgv2o5S0UOQAj-1" vertex="1">
+                    <mxGeometry x="170" y="460" width="1220" height="570" as="geometry"/>
+                </mxCell>
+                <mxCell id="6lPIFS5kgiezeE-GSuGC-0" value="服务器 k8s Worker02" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;" parent="hqEQS-_Kgv2o5S0UOQAj-1" vertex="1">
+                    <mxGeometry x="910" y="480" width="460" height="510" as="geometry"/>
+                </mxCell>
+                <mxCell id="hqEQS-_Kgv2o5S0UOQAj-3" value="服务器 k8s Worker01" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;" parent="hqEQS-_Kgv2o5S0UOQAj-1" vertex="1">
+                    <mxGeometry x="420" y="480" width="460" height="510" as="geometry"/>
+                </mxCell>
+                <mxCell id="hqEQS-_Kgv2o5S0UOQAj-24" value="服务器 (Docker Compose)" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;" parent="hqEQS-_Kgv2o5S0UOQAj-1" vertex="1">
+                    <mxGeometry x="200" y="270" width="520" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="hqEQS-_Kgv2o5S0UOQAj-25" value="nginx" style="html=1;dropTarget=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="hqEQS-_Kgv2o5S0UOQAj-1" vertex="1">
+                    <mxGeometry x="380" y="340" width="250" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="hqEQS-_Kgv2o5S0UOQAj-26" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="hqEQS-_Kgv2o5S0UOQAj-25" vertex="1">
+                    <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+                        <mxPoint x="-27" y="7" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6lPIFS5kgiezeE-GSuGC-1" value="服务器 k8s Master1" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;" parent="hqEQS-_Kgv2o5S0UOQAj-1" vertex="1">
+                    <mxGeometry x="200" y="505" width="160" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="6lPIFS5kgiezeE-GSuGC-2" value="服务器 k8s Master2" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;" parent="hqEQS-_Kgv2o5S0UOQAj-1" vertex="1">
+                    <mxGeometry x="200" y="665" width="160" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="6lPIFS5kgiezeE-GSuGC-3" value="服务器 k8s Master3" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;" parent="hqEQS-_Kgv2o5S0UOQAj-1" vertex="1">
+                    <mxGeometry x="200" y="835" width="160" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="6lPIFS5kgiezeE-GSuGC-7" value="" style="group" parent="hqEQS-_Kgv2o5S0UOQAj-1" vertex="1" connectable="0">
+                    <mxGeometry x="650" y="560" width="200" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="hqEQS-_Kgv2o5S0UOQAj-15" value="namespace: codepod-workspace" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="6lPIFS5kgiezeE-GSuGC-7" vertex="1">
+                    <mxGeometry width="200" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="hqEQS-_Kgv2o5S0UOQAj-16" value="CodePod—User1" style="html=1;dropTarget=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="6lPIFS5kgiezeE-GSuGC-7" vertex="1">
+                    <mxGeometry x="10" y="50" width="170" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="hqEQS-_Kgv2o5S0UOQAj-17" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="hqEQS-_Kgv2o5S0UOQAj-16" vertex="1">
+                    <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+                        <mxPoint x="-27" y="7" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hqEQS-_Kgv2o5S0UOQAj-18" value="CodePod—User2" style="html=1;dropTarget=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="6lPIFS5kgiezeE-GSuGC-7" vertex="1">
+                    <mxGeometry x="10" y="110" width="170" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="hqEQS-_Kgv2o5S0UOQAj-19" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="hqEQS-_Kgv2o5S0UOQAj-18" vertex="1">
+                    <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+                        <mxPoint x="-27" y="7" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hqEQS-_Kgv2o5S0UOQAj-20" value="CodePod—User…" style="html=1;dropTarget=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="6lPIFS5kgiezeE-GSuGC-7" vertex="1">
+                    <mxGeometry x="10" y="170" width="170" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="hqEQS-_Kgv2o5S0UOQAj-21" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="hqEQS-_Kgv2o5S0UOQAj-20" vertex="1">
+                    <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+                        <mxPoint x="-27" y="7" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6lPIFS5kgiezeE-GSuGC-8" value="" style="group" parent="hqEQS-_Kgv2o5S0UOQAj-1" vertex="1" connectable="0">
+                    <mxGeometry x="430" y="560" width="200" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="hqEQS-_Kgv2o5S0UOQAj-4" value="namespace: codepod-server" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="6lPIFS5kgiezeE-GSuGC-8" vertex="1">
+                    <mxGeometry width="200" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="hqEQS-_Kgv2o5S0UOQAj-5" value="Server Components" style="html=1;dropTarget=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="6lPIFS5kgiezeE-GSuGC-8" vertex="1">
+                    <mxGeometry x="20" y="50" width="150" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="hqEQS-_Kgv2o5S0UOQAj-6" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="hqEQS-_Kgv2o5S0UOQAj-5" vertex="1">
+                    <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+                        <mxPoint x="-27" y="7" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6lPIFS5kgiezeE-GSuGC-9" value="SLB 公网弹性IP" style="verticalAlign=middle;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;" parent="hqEQS-_Kgv2o5S0UOQAj-1" vertex="1">
+                    <mxGeometry x="170" y="160" width="1220" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="6lPIFS5kgiezeE-GSuGC-12" value="服务器 (Docker Compose)" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;" parent="hqEQS-_Kgv2o5S0UOQAj-1" vertex="1">
+                    <mxGeometry x="827" y="270" width="520" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="6lPIFS5kgiezeE-GSuGC-13" value="nginx" style="html=1;dropTarget=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="hqEQS-_Kgv2o5S0UOQAj-1" vertex="1">
+                    <mxGeometry x="930" y="330" width="250" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="6lPIFS5kgiezeE-GSuGC-14" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="6lPIFS5kgiezeE-GSuGC-13" vertex="1">
+                    <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+                        <mxPoint x="-27" y="7" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6lPIFS5kgiezeE-GSuGC-36" value="" style="group" parent="hqEQS-_Kgv2o5S0UOQAj-1" vertex="1" connectable="0">
+                    <mxGeometry x="930" y="570" width="200" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="6lPIFS5kgiezeE-GSuGC-37" value="namespace: codepod-server" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="6lPIFS5kgiezeE-GSuGC-36" vertex="1">
+                    <mxGeometry y="-10" width="200" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="6lPIFS5kgiezeE-GSuGC-38" value="Server Components" style="html=1;dropTarget=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="6lPIFS5kgiezeE-GSuGC-36" vertex="1">
+                    <mxGeometry x="20" y="50" width="150" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="6lPIFS5kgiezeE-GSuGC-39" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="6lPIFS5kgiezeE-GSuGC-38" vertex="1">
+                    <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+                        <mxPoint x="-27" y="7" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6lPIFS5kgiezeE-GSuGC-40" value="" style="group" parent="hqEQS-_Kgv2o5S0UOQAj-1" vertex="1" connectable="0">
+                    <mxGeometry x="1150" y="560" width="200" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="6lPIFS5kgiezeE-GSuGC-41" value="namespace: codepod-workspace" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="6lPIFS5kgiezeE-GSuGC-40" vertex="1">
+                    <mxGeometry width="200" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="6lPIFS5kgiezeE-GSuGC-42" value="CodePod—User1" style="html=1;dropTarget=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="6lPIFS5kgiezeE-GSuGC-40" vertex="1">
+                    <mxGeometry x="10" y="50" width="170" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="6lPIFS5kgiezeE-GSuGC-43" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="6lPIFS5kgiezeE-GSuGC-42" vertex="1">
+                    <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+                        <mxPoint x="-27" y="7" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6lPIFS5kgiezeE-GSuGC-44" value="CodePod—User2" style="html=1;dropTarget=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="6lPIFS5kgiezeE-GSuGC-40" vertex="1">
+                    <mxGeometry x="10" y="110" width="170" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="6lPIFS5kgiezeE-GSuGC-45" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="6lPIFS5kgiezeE-GSuGC-44" vertex="1">
+                    <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+                        <mxPoint x="-27" y="7" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6lPIFS5kgiezeE-GSuGC-46" value="CodePod—User…" style="html=1;dropTarget=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="6lPIFS5kgiezeE-GSuGC-40" vertex="1">
+                    <mxGeometry x="10" y="170" width="170" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="6lPIFS5kgiezeE-GSuGC-47" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="6lPIFS5kgiezeE-GSuGC-46" vertex="1">
+                    <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+                        <mxPoint x="-27" y="7" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hqEQS-_Kgv2o5S0UOQAj-29" value="云服务" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;container=1;" parent="hqEQS-_Kgv2o5S0UOQAj-1" vertex="1">
+                    <mxGeometry x="200" y="1060" width="290" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="hqEQS-_Kgv2o5S0UOQAj-30" value="MySQL Cluster" style="html=1;dropTarget=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="hqEQS-_Kgv2o5S0UOQAj-29" vertex="1">
+                    <mxGeometry x="30.00209302325581" y="75" width="212.7906976744186" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="hqEQS-_Kgv2o5S0UOQAj-31" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="hqEQS-_Kgv2o5S0UOQAj-30" vertex="1">
+                    <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+                        <mxPoint x="-27" y="7" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6lPIFS5kgiezeE-GSuGC-48" value="MQ 集群" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;container=1;" parent="hqEQS-_Kgv2o5S0UOQAj-1" vertex="1">
+                    <mxGeometry x="650" y="1060" width="290" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="hqEQS-_Kgv2o5S0UOQAj-32" value="RocketMQ" style="html=1;dropTarget=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="6lPIFS5kgiezeE-GSuGC-48" vertex="1">
+                    <mxGeometry x="39.99883720930234" y="75" width="212.7906976744186" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="hqEQS-_Kgv2o5S0UOQAj-33" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="hqEQS-_Kgv2o5S0UOQAj-32" vertex="1">
+                    <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+                        <mxPoint x="-27" y="7" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6lPIFS5kgiezeE-GSuGC-52" value="2m2s" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="6lPIFS5kgiezeE-GSuGC-48" vertex="1">
+                    <mxGeometry x="120" y="150" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="6lPIFS5kgiezeE-GSuGC-49" value="配置中心 集群" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;container=1;" parent="hqEQS-_Kgv2o5S0UOQAj-1" vertex="1">
+                    <mxGeometry x="1080" y="1060" width="290" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="6lPIFS5kgiezeE-GSuGC-50" value="Nacos" style="html=1;dropTarget=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="6lPIFS5kgiezeE-GSuGC-49" vertex="1">
+                    <mxGeometry x="39.99883720930234" y="75" width="212.7906976744186" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="6lPIFS5kgiezeE-GSuGC-51" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="6lPIFS5kgiezeE-GSuGC-50" vertex="1">
+                    <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+                        <mxPoint x="-27" y="7" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

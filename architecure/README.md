@@ -14,7 +14,7 @@
 
 逻辑架构视图
 
-![逻辑架构](_media/逻辑架构.png)
+![逻辑架构](_media/逻辑架构.png ":size=60%")
 
 ## 物理架构
 
@@ -38,9 +38,49 @@
 
 ![部署架构-私有化环境](_media/部署架构-私有化环境.png ":size=70%")
 
+| 服务器名称        | 类型   | CPU | 内存（G） | 磁盘(G) | 带宽(Gps) | 数量 | 部署内容              |
+| :---------------- | :----- | :-- | :-------- | :------ | :-------- | :--- | :-------------------- |
+| 内网 DNS          | DNS    |     |           |         |           | 1    |                       |
+| 服务器           | 虚拟机 | 2   | 4         | 100     | 1         | 2    | nginx                 |
+| 服务器 k8s-master | 虚拟机 | 4   | 16        | 100     | 1         | 3    | master                |
+| 服务器 k8s-worker | 虚拟机 | 4   | 16        | 100     | 1         | 2    | workspace 服务组件    |
+| 服务器 k8s-worker | 虚拟机 | 4   | 32        | 100     | 1         | 2..N | code pod 用户工作空间 |
+| 服务器 k8s-worker | 虚拟机 | 4   | 16        | 100     | 1         | 2    | 镜像仓库、监控中心    |
+| 服务器           | 虚拟机 | 4   | 16        | 100     | 1         | 2    | MySQL 数据库          |
+| 服务器           | 虚拟机 | 2   | 8         | 100     | 1         | 2    | RocketMQ              |
+| 服务器           | 虚拟机 | 2   | 8         | 100     | 1         | 3    | nacos                 |
+| 服务器           | 虚拟机 | 2   | 8         | 100     | 1         | 2    | NFS                   |
+
 ## 开发架构
 
-_技术选型、代码架构_
+### 技术选型
+
+| 分类     | 项目         | 技术选型    | 版本     |
+| :------- | :----------- | :---------- | :------- |
+| 操作系统 | 所有服务器   | CentOS      | 7.9      |
+| 数据库   | 数据库服务器 | MySQL       | 8.0      |
+| 中间件   | 消息中间件   | RocketMQ    | 4.9.x    |
+| 中间件   | 配置中心     | Nacos       | 2.1.2    |
+| 开发语言 | 前端组件     | Html/JS     |          |
+| 开发组件 | 前端工程     | Vue         | 3        |
+| 开发组件 | 前端构建     | Vite        | 3        |
+| 开发语言 | 后端组件     | Java        | 17       |
+| 开发组件 | 后端工程     | SpringBoot  | 3.x      |
+| 开发组件 | 后端 WEB API | WebFlux     |          |
+| 开发组件 | 微服务框架   | SpringCloud | 2022.0.3 |
+| 开发组件 | 数据库访问   | R2DBC       |          |
+| 运行平台 | 容器技术     | docker      | 24.x     |
+| 运行平台 | 容器技术     | k8s         | 1.22.x   |
+
+### 开发组件一览表
+
+| 模块名           | 逻辑名           | 物理名        | 文件名            | 代码工程名    | 代码工程类型        | 形态     | 开发语言 | 运行环境       |
+| :--------------- | :--------------- | :------------ | :---------------- | :------------ | :------------------ | :------- | :------- | :------------- |
+| 前端 UI          | 前端 UI          | workspace-ui  | workspace-ui.zip  | workspace-ui  | vue                 | web 前端 | html     | win/linux/容器 |
+| API 网关         | API 网关         | gateway       | gateway.jar       | gateway       | springcloud gateway | server   | java     | win/linux/容器 |
+| 工作空间服务     | 工作空间服务     | workspace     | workspace.jar     | workspace     | springcloud         | server   | java     | win/linux/容器 |
+| 工作空间执行 JOB | 工作空间执行 JOB | workspace-job | workspace-job.jar | workspace-job | springcloud         | server   | java     | win/linux/容器 |
+| 数据空间执行 JOB | 数据空间执行 JOB | dataspace-job | dataspace-job.jar | dataspace-job | springcloud         | server   | java     | win/linux/容器 |
 
 ## 运行架构
 

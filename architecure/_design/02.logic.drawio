@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="vVA_o35hJ7-RhdYQv6_G" name="逻辑架构">
-        <mxGraphModel dx="3205" dy="973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="2740" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -135,22 +135,22 @@
                 <mxCell id="3WPW9wRoEwNam94XegMr-1" value="注册登录" style="html=1;fontSize=13;" parent="1" vertex="1">
                     <mxGeometry x="-1220" y="300" width="110" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" style="edgeStyle=none;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="2" target="zxybhiNNPWDu_kbE6-t5-24">
+                <mxCell id="3" style="edgeStyle=none;html=1;endArrow=none;endFill=0;" parent="1" source="2" target="zxybhiNNPWDu_kbE6-t5-24" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
                     <mxGeometry x="-1320" y="380" width="830" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="网关" style="html=1;fontSize=13;" vertex="1" parent="1">
+                <mxCell id="4" value="接口网关" style="html=1;fontSize=13;" parent="1" vertex="1">
                     <mxGeometry x="-1100" y="390" width="370" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="接入层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
-                    <mxGeometry x="-1290" y="390" width="60" height="30" as="geometry"/>
+                <mxCell id="5" value="接口接入层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+                    <mxGeometry x="-1290" y="390" width="80" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="空间模板" style="html=1;fontSize=13;" vertex="1" parent="1">
+                <mxCell id="6" value="空间模板" style="html=1;fontSize=13;" parent="1" vertex="1">
                     <mxGeometry x="-960" y="301" width="110" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="数据空间" style="html=1;fontSize=13;" vertex="1" parent="1">
+                <mxCell id="7" value="数据空间" style="html=1;fontSize=13;" parent="1" vertex="1">
                     <mxGeometry x="-815" y="302" width="110" height="50" as="geometry"/>
                 </mxCell>
             </root>

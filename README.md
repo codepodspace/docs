@@ -1,10 +1,10 @@
 # Code Pod Space 技术文档
 
-> Code Pod 是什么？
+> Code Pod Space是什么？
 
-Code Pod Space is code in pod, working on your space. and coding anywhere anytime.
+Code Pod Space is a code pod, working on your space. and coding anywhere anytime.
 
-Code Pod Space是一个代码容器，可以在您的空间中工作，并随时随地进行编码。
+Code Pod Space是一个代码容器，可以在您的空间中运行，并随时随地进行编码。
 
 > 介绍
 

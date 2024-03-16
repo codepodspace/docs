@@ -14,6 +14,10 @@ CodePod是一种基于VSCode和容器化技术的SaaS服务，用户只需使用
 
 此外，CodePod提供了丰富的模板，支持用户按照自己的需求选择多种编程语言，如Java、DotNet、JavaScript、Python、PHP等。
 
+## 技术架构文档
+
+目前将技术架构文档开源，供参考学习，可按如下步骤在本地运行。
+
 > 开始
 
     git clone https://github.com/codepodspace/docs.git
